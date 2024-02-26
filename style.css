@@ -82,6 +82,27 @@ button {
   background-color: #000;
   color: #fff;
   padding: 1rem 1.8rem;
-  border-radius: 0.4rem;
+  border-radius: 0.2rem;
+  transition: all 0.3s ease;
+}
+
+.navigation .nav-btn:hover {
+  background-color: #fff;
+  color: #000;
   cursor: pointer;
+}
+
+/* Fade in animation */
+.fade-in {
+  animation: fadeInAnimation ease 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
