@@ -1,0 +1,155 @@
+@media screen and (max-width: 1024px) {
+  /* Navigation */
+
+  .navigation {
+    justify-content: space-between;
+    /* margin: 0 2rem; */
+    padding: 0 2rem;
+  }
+
+  .navigation ul li {
+    display: none;
+  }
+
+  .navigation button {
+    display: none;
+  }
+
+  .navigation .nav-toggele {
+    display: block;
+    font-size: 2.8rem;
+    font-weight: 800;
+  }
+
+  /* Hero Section */
+
+  .hero-img {
+    display: none;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-content h1,
+  .hero-content h1 span em {
+    text-align: center;
+  }
+
+  /* Project Section */
+
+  .projects h2 {
+    font-size: 16vw;
+  }
+
+  .top-h {
+    margin-top: 5rem;
+    bottom: 60%;
+  }
+
+  .bottom-h {
+    top: -5% !important;
+  }
+
+  .fltr-cards {
+    flex-wrap: nowrap;
+  }
+
+  /* Page 5 */
+  .page5 {
+    min-height: 0;
+  }
+
+  /* Footer */
+}
+
+@media screen and (max-width: 767px) {
+  /* Page 1 */
+  .page1 {
+    height: 60vh;
+  }
+
+  .page1-img1,
+  .page1-img2 {
+    display: none;
+  }
+
+  /* Project section */
+
+  .fltr-cards {
+    flex-wrap: wrap;
+  }
+
+  .bottom-project {
+    display: none;
+    margin-bottom: 20rem;
+  }
+
+  /* Page 5 */
+  .page5 {
+    margin-top: 38rem;
+  }
+
+  /* footer */
+  .footer-div h5 {
+    font-size: 2vw;
+    font-weight: 600;
+  }
+
+  .footer-div h6 {
+    font-size: 1.8vw;
+  }
+
+  .copyR {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  /* Page 1 */
+  .page1 {
+    justify-content: start;
+    align-items: start;
+    height: 70vh;
+  }
+
+  /* page 5 */
+  .page5 {
+    margin-top: 110rem;
+  }
+
+  /* footer */
+
+  .footer {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  .footer-div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-div h5 {
+    font-size: 4vw;
+  }
+
+  .footer-div h6 {
+    font-size: 3vw;
+  }
+
+  .box {
+    width: 50%;
+    line-height: 2;
+  }
+
+  .copyR {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+  }
+}

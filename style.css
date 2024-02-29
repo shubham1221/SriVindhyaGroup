@@ -34,6 +34,7 @@ li {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 button {
@@ -42,7 +43,7 @@ button {
 }
 
 .container {
-  width: 1280px;
+  width: 90vw;
   margin: 0 auto;
 }
 
@@ -102,6 +103,12 @@ button {
   color: #000;
   cursor: pointer;
   border: 1px solid #000;
+}
+
+.navigation .nav-toggele {
+  display: none;
+  font-size: 2.8rem;
+  font-weight: 800;
 }
 
 /* Fade in animation */
@@ -307,7 +314,7 @@ button {
 
 .content h3,
 .content-project-page h3 {
-  font-size: 8rem;
+  font-size: 8vw;
   font-weight: 800;
   margin: 10rem 0 2rem 0;
 }
@@ -333,7 +340,7 @@ button {
   align-items: center;
   margin-top: 4rem;
   gap: 2rem;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .card {
@@ -463,9 +470,9 @@ button {
 }
 
 .footer h3 {
-  font-size: 8rem;
+  font-size: 8vw;
   font-weight: 800;
-  margin: 10rem 0 2rem 0;
+  margin: 0rem 0 2rem 0;
   transition: all 0.3s ease;
 }
 
@@ -566,4 +573,5 @@ button {
 
 .copyR {
   font-size: 1.4rem;
+  padding-bottom: 1rem;
 }
