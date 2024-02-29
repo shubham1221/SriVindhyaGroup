@@ -152,7 +152,7 @@ button {
     rgba(82, 133, 180, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#173348",endColorstr="#5285b4",GradientType=1);
-  height: 60vh;
+  height: 400px;
   margin-top: 14rem;
   padding: 0 0 0 4rem;
   border-radius: 4rem;

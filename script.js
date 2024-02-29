@@ -30,7 +30,7 @@ function projectsAnimation() {
   tl.to(
     ".bottom-project",
     {
-      bottom: "-50%",
+      bottom: "-90%",
     },
     "a"
   );
