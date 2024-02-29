@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sri Vindhya Group</title>
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="./Assets/img/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <header class="header">
+        <nav class="navigation">
+          <a href="./index.html"
+            ><img
+              src="./Assets/img/logo.png"
+              alt="Sri Vindhya Group Logo"
+              class="logo"
+          /></a>
+
+          <ul class="main-menu">
+            <li class="menu-item">Studio</li>
+            <li class="menu-item">Team</li>
+            <li class="menu-item">Projects</li>
+            <li class="menu-item">About Us</li>
+          </ul>
+
+          <button type="button" class="nav-btn">Contact Us</button>
+        </nav>
+      </header>
+
+      <!-- Project section -->
+      <section class="project-section content-project-page">
+        <h3>Projects</h3>
+        <!-- Fillter Buttons -->
+        <div class="fltr-btn">
+          <button class="nav-btn active" data-name="all">Residential</button>
+          <!-- <button class="nav-btn" data-name="residential">
+              Residential
+            </button> -->
+          <button class="nav-btn" data-name="commercial">Commercial</button>
+          <button class="nav-btn" data-name="progress">In Progress</button>
+          <button class="nav-btn" data-name="archive">Archive</button>
+          <!-- <a href="./projects.html" class="nav-btn">Show All Projects</a> -->
+        </div>
+        <!-- Image Cards -->
+        <div class="fltr-cards">
+          <!-- Card One -->
+          <div class="card" data-name="residential">
+            <img
+              src="./Assets/img/Project-img/property-1.jpg"
+              alt="Property One"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Property One</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+              <button class="nav-btn">See More...</button>
+            </div>
+          </div>
+          <!-- Card Two -->
+
+          <div class="card" data-name="commercial">
+            <img
+              src="./Assets/img/Project-img/property-2.jpg"
+              alt="Property One"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Property Two</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+              <button class="nav-btn">See More...</button>
+            </div>
+          </div>
+          <!-- Card Three -->
+
+          <div class="card" data-name="progress">
+            <img
+              src="./Assets/img/Project-img/property-3.jpg"
+              alt="Property One"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Property Three</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+              <button class="nav-btn">See More...</button>
+            </div>
+          </div>
+
+          <!-- Card Four -->
+
+          <div class="card" data-name="progress">
+            <img
+              src="./Assets/img/Project-img/property-4.jpg"
+              alt="Property Four"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Property Four</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+              <button class="nav-btn">See More...</button>
+            </div>
+          </div>
+
+          <!-- Card Five -->
+
+          <div class="card" data-name="archive">
+            <img
+              src="./Assets/img/Project-img/property-5.jpg"
+              alt="Property Four"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Property Five</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+              <button class="nav-btn">See More...</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- GSAP CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Scroll Trigger -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

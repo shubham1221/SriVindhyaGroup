@@ -46,7 +46,7 @@ function projectsAnimation() {
   tl.to(
     ".bottom-h",
     {
-      bottom: "80%",
+      bottom: "20%",
     },
     "a"
   );
