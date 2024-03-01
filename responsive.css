@@ -144,6 +144,17 @@
     height: 70vh;
   }
 
+  .page1-content h2,
+  .page1-content h2 span em {
+    font-size: 3.4rem;
+    width: 90%;
+  }
+
+  .page1-content p {
+    width: 80%;
+    font-size: 1.6rem;
+  }
+
   /* page 5 */
   .page5 {
     margin-top: 110rem;
