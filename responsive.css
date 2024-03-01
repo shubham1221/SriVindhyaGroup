@@ -11,7 +11,7 @@
     display: none;
   }
 
-  .navigation button {
+  .navigation .nav-btn {
     display: none;
   }
 
@@ -90,7 +90,9 @@
 @media screen and (max-width: 767px) {
   /* Page 1 */
   .page1 {
-    height: 60vh;
+    justify-content: start;
+    align-items: start;
+    height: 70vh;
   }
 
   .page1-img1,
@@ -189,5 +191,23 @@
   .copyR {
     font-size: 1.2rem;
     padding-bottom: 1rem;
+  }
+
+  /* Project Page */
+
+  .content-project-page h3 {
+    font-size: 8vw;
+    margin-bottom: 8rem;
+  }
+
+  /* Footer */
+
+  .footer {
+    height: 60vh;
+    width: 100%;
+    /* background-color: #151515; */
+    /* position: fixed; */
+    /* bottom: 0; */
+    padding: 8rem 2rem;
   }
 }
