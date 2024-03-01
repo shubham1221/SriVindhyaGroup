@@ -131,6 +131,12 @@
 }
 
 @media screen and (max-width: 580px) {
+  /* Hero */
+
+  .hero {
+    padding: 0 0 0 0rem;
+  }
+
   /* Page 1 */
   .page1 {
     justify-content: start;
