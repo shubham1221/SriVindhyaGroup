@@ -88,6 +88,35 @@
   .team-page-one {
     margin-top: 4rem;
   }
+
+  /* About Us Page */
+  .responsive-container-block.Container {
+    position: relative;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .mainImg {
+    bottom: 0px;
+  }
+
+  .responsive-container-block.textSide {
+    margin: 0 0 2px 0;
+    margin-left: auto;
+    width: 100%;
+  }
+
+  .responsive-container-block.Container {
+    flex-direction: column-reverse;
+  }
+
+  .responsive-container-block.Container {
+    flex-direction: row-reverse;
+  }
+
+  .responsive-container-block.Container {
+    flex-direction: column-reverse;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -143,6 +172,30 @@
   .team-page-one p {
     font-size: 1.6vw;
     width: 40%;
+  }
+
+  /* About Us page */
+  .responsive-container-block.textSide {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 20px 0;
+  }
+
+  .text-blk.subHeading {
+    text-align: start;
+    font-size: 17px;
+    max-width: 520px;
+  }
+
+  .text-blk.heading {
+    text-align: start;
+  }
+
+  .responsive-container-block.Container {
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
   }
 }
 
@@ -263,5 +316,48 @@
     justify-content: start;
     flex-wrap: wrap;
     gap: 2rem;
+  }
+
+  /* About Us page */
+
+  .mainImg {
+    height: 100%;
+  }
+
+  .responsive-container-block.textSide {
+    margin: 0;
+  }
+
+  .responsive-container-block.Container {
+    padding: 0;
+    overflow-x: visible;
+    overflow-y: visible;
+  }
+
+  .responsive-container-block.bigContainer {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding: 0 30px 0 30px;
+  }
+
+  .text-blk.subHeading {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: start;
+  }
+
+  .text-blk.heading {
+    text-align: start;
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .responsive-container-block.textSide {
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 0px;
   }
 }
