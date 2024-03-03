@@ -90,6 +90,40 @@ function filterablePro() {
   );
 }
 
+// Mobile Menu
+
+function mobileMenu() {
+  const mobileMenu = document.querySelector(".mobile-menu");
+  const overlay = document.querySelector(".overlay");
+  const btnCloseMobile = document.querySelector(".close-mobile");
+  const btnShowMobile = document.querySelectorAll(".show-mobile");
+
+  let openMobile = () => {
+    mobileMenu.classList.remove("hidden");
+    overlay.classList.remove("hidden");
+  };
+
+  let closeMobile = () => {
+    mobileMenu.classList.add("hidden");
+    overlay.classList.add("hidden");
+  };
+
+  for (let i = 0; i < btnShowMobile.length; i++) {
+    btnShowMobile[i].addEventListener("click", openMobile);
+  }
+
+  btnCloseMobile.addEventListener("click", closeMobile);
+
+  overlay.addEventListener("click", closeMobile);
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !modal.classList.contains("hidden")) {
+      closeMobile();
+    }
+  });
+}
+
 navAnimation();
 projectsAnimation();
 filterablePro();
+mobileMenu();
