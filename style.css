@@ -888,3 +888,128 @@ button {
 .card-about-cont p {
   font-size: 1.2rem;
 }
+
+/* Single project page */
+
+.single-project {
+  margin: 4rem 0rem 4rem 8rem;
+}
+
+.project-card {
+  display: flex;
+  gap: 4rem;
+}
+
+.single-project-img {
+  width: 40%;
+}
+
+.single-project-img img {
+  width: 100%;
+}
+
+.project-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project-card .project-detail {
+  width: 50%;
+}
+
+.project-card .project-detail h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.project-card .project-detail p {
+  font-size: 2rem;
+}
+.project-card .project-detail a {
+  width: 40%;
+  text-align: center;
+}
+
+/* Contact us page */
+
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  margin: 10rem auto;
+}
+
+.contactUs .map {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Left Side contact */
+.left-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.left-contact h2 {
+  font-size: 5.6rem;
+  font-weight: 700;
+}
+
+.left-contact p {
+  font-size: 1.6rem;
+  width: 60%;
+}
+
+.cont-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* Right side contact */
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #000;
+  color: white;
+  font-weight: 600;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  font-weight: 600;
+}
+
+.social {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.6rem;
+}
